@@ -16,6 +16,7 @@
         "redux-thunk": "^2.3.0",
         "semantic-ui-react": "^0.87.3"
     },
+    "proxy": "http://localhost:5000",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
@@ -36,11 +37,5 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
-    },
-    "devDependencies": {
-        "eslint-config-airbnb": "17.1.1",
-        "eslint-plugin-import": "^2.18.0",
-        "eslint-plugin-jsx-a11y": "^6.2.3",
-        "eslint-plugin-react": "^7.14.2"
     }
 }

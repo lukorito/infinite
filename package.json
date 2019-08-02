@@ -5,9 +5,10 @@
     "lerna": "^3.15.0"
   },
     "scripts": {
-        "heroku-prebuild": " cd packages/server && npm run install",
+        "bootstrap": "lerna bootstrap",
+        "postinstall": "npm run bootstrap",
         "start": "lerna run start",
-        "heroku-postbuild": "cd packages/client && npm install && npm run build"
+        "heroku-postbuild": "cd packages/client && npm run build"
     }
 
 }
