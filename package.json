@@ -5,9 +5,9 @@
     "lerna": "^3.15.0"
   },
     "scripts": {
-        "heroku-prebuild": "lerna bootstrap",
+        "heroku-prebuild": " cd packages/server && yarn",
         "start": "lerna run start",
-        "heroku-postbuild": "lerna build"
+        "heroku-postbuild": "cd packages/client && yarn build"
     }
 
 }
